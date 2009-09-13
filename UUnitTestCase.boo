@@ -15,6 +15,16 @@ class UUnitTestCase ():
 	def SetTest(aMethod as string):
 		_test = aMethod
 	
+	def RunAllowingExceptions(result as UUnitTestResult):
+		if result == null :
+			result = UUnitTestResult()
+		SetUp()
+		result.TestStarted()
+		selfType = self.GetType()
+		myMethInfo=selfType.GetMethod(_test)
+		myMethInfo.Invoke(self,null)
+		return result
+	
 	def Run(result as UUnitTestResult):
 		if result == null :
 			result = UUnitTestResult()

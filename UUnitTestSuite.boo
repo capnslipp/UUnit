@@ -9,6 +9,11 @@ class UUnitTestSuite():
 	
 	def Add(test):
 		tests.Add(test)
+	
+	def RunAllowingExceptions(result) as UUnitTestResult :
+		for test as UUnitTestCase in tests:
+			result = test.RunAllowingExceptions(result)
+		return result
 		
 	def Run(result) as UUnitTestResult :
 		for test as UUnitTestCase in tests:
