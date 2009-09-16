@@ -2,7 +2,7 @@ h1. UUnit
 
 UUnit is a simple xUnit-style framework for unit testing inside Unity IDE. More info at "unifycommunity.com/wiki/index.php?title=UUnit":http://www.unifycommunity.com/wiki/index.php?title=UUnit .
 
-License info pending.
+License info pending, but it will likely be some kind of "free to use, as long as you give me credit" type of deal. It is on GitHub, after all.
 
 
 h2. Usage
