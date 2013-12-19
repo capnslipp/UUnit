@@ -9,7 +9,7 @@ h2. Usage
 
 h3. Usage Only
 
-# Go to the GitHub page for this project (likely "github.com/slippyd/unity3d-UUnit":http://github.com/slippyd/unity3d-UUnit).
+# Go to the GitHub page for this project (likely "github.com/capnslipp/unity3dUUnit":http://github.com/capnslipp/UUnit).
 # Click the *Download* button.
 # Choose your preferred compression format (ZIP if you're unsure).
 # Wait for the file to download and then decompress the downloaded file (if it doesn't decompress automatically).
