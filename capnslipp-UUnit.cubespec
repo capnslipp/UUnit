@@ -4,18 +4,18 @@ summary: "UUnit is a simple xUnit-style framework for unit testing inside Unity 
 homepage: "http://wiki.unity3d.com/index.php?title=UUnit"
 authors: ["ryuuguu", "hatsix", "Slipp Douglas Thompson"]
 files:
-  - filename: "Lib/UUnitAssert.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitAssert.boo"
-  - filename: "Lib/UUnitAssertException.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitAssertException.boo"
-  - filename: "Lib/UUnitTestAttribute.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitTestAttribute.boo"
-  - filename: "Lib/UUnitTestCase.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitTestCase.boo"
-  - filename: "Lib/UUnitTestResult.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitTestResult.boo"
-  - filename: "Lib/UUnitTestSuite.boo"
-    install-path: "Assets/Plugins/UUnit/UUnitTestSuite.boo"
+  - filename: "Lib/UUnitAssert.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitAssert.cs"
+  - filename: "Lib/UUnitAssertException.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitAssertException.cs"
+  - filename: "Lib/UUnitTestAttribute.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitTestAttribute.cs"
+  - filename: "Lib/UUnitTestCase.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitTestCase.cs"
+  - filename: "Lib/UUnitTestResult.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitTestResult.cs"
+  - filename: "Lib/UUnitTestSuite.cs"
+    install-path: "Assets/Plugins/UUnit/UUnitTestSuite.cs"
 required-unity-version: >= 2.0
 runtime-dependencies: []
 editor-dependencies: []
